@@ -20,6 +20,8 @@
  * It is deliberately NOT the LED pin — see the note above ledcSetup().
  */
 #include <Arduino.h>
+#include <JohGeisler-project-1_inferencing.h>
+
 
 #define RGB_LED_PIN 38   // silkscreen: RGB@IO38
 #define SCOPE_PIN    2   // J3 pin 5, four pins down from GND — probe this one
